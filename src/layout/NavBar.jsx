@@ -39,7 +39,7 @@ const NavBar = () => {
                 Control
               </Nav.Link>
               <Nav.Link as={NavLink} to="/plan-mantenimiento">
-                Plan Mantenimiento
+                Plan de mantenimiento
               </Nav.Link>
               {/* <Nav.Link as={NavLink} to="/reporte">
                 Reporte
