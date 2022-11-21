@@ -182,7 +182,7 @@ const ModalCalendar = (props) => {
 
           <hr />
           <div className="form-group mb-2">
-            <label>Nombre del usuario y Ciudad</label>
+            <label>Nombre del usuario y ciudad</label>
             <input
               type="text"
               className="form-control"
