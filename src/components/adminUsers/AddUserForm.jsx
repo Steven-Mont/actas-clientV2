@@ -34,7 +34,7 @@ const AddUserForm = () => {
   return (
     <div className="border border-3 rounded p-2 ">
       <button onClick={handleShow} className="btn btn-primary">
-        Crear Usuario
+        Crear usuario
       </button>
 
       <CSSTransition
@@ -67,7 +67,7 @@ const AddUserForm = () => {
               className="form-control"
               id="name"
               name="name"
-              placeholder="name"
+              placeholder="Nombre"
               value={inputs.name}
               onChange={(e) =>
                 setInputs({ ...inputs, [e.target.name]: e.target.value })
@@ -80,7 +80,7 @@ const AddUserForm = () => {
               type="password"
               className="form-control"
               id="exampleInputPassword1"
-              placeholder="password"
+              placeholder="Password"
               name="password"
               value={inputs.password}
               onChange={(e) =>
