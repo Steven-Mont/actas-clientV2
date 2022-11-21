@@ -182,11 +182,11 @@ const ModalCalendar = (props) => {
 
           <hr />
           <div className="form-group mb-2">
-            <label>Titulo y notas</label>
+            <label>Nombre del usuario y Ciudad</label>
             <input
               type="text"
               className="form-control"
-              placeholder="Título del evento"
+              placeholder=""
               name="title"
               autoComplete="off"
               value={inputs.title}
