@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-
 import { useAppProvider } from "../../context/actasContext/AppProvider";
 import { CSSTransition } from "react-transition-group";
-
 import "./AddUserForm.css";
 
 const initialInputs = {
@@ -49,7 +47,7 @@ const AddUserForm = () => {
           className={`w-50 m-auto mt-1 border p-3 bg-light shadow`}
           onSubmit={handleSubmit}
         >
-          <h3 className="text-center mb-3">Crear un nuevo Usuario</h3>
+          <h3 className="text-center mb-3">Crear un nuevo usuario</h3>
 
           <div className="input-group mb-3">
             <input
