@@ -147,7 +147,7 @@ const RegistroActas = () => {
         }}
       >
         <Form style={{ width: '100%' }} onSubmit={(e) => e.preventDefault()}>
-          <h2 className="text-center">Registros de Actas</h2>
+          <h2 className="text-center">Registro de actas</h2>
 
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label>Tipo de acta</Form.Label>
@@ -178,7 +178,7 @@ const RegistroActas = () => {
               }
               name="nombre"
               type="text"
-              placeholder="Ingrese nombre"
+              placeholder="Nombre"
             />
 
             <div className="d-flex gap-2 mt-3 mb-3">
