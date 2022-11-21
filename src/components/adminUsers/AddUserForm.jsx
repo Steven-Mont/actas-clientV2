@@ -80,7 +80,7 @@ const AddUserForm = () => {
               type="password"
               className="form-control"
               id="exampleInputPassword1"
-              placeholder="Password"
+              placeholder="Contraseña"
               name="password"
               value={inputs.password}
               onChange={(e) =>
