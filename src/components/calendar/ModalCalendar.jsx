@@ -138,17 +138,17 @@ const ModalCalendar = (props) => {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Formulario Agregar un Evento
+          Agregar un mantenimiento
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
 
-        <h1> Nuevo evento </h1>
+        <h1> Nuevo mantenimiento </h1>
         <hr />
         <form onSubmit={handleSubmit} className="container">
 
           <div className="form-group mb-2">
-            <label>Fecha y hora inicio</label>
+            <label>Fecha, hora de inicio y finalización</label>
             <DatePicker
               className='form-control'
               locale="es"
@@ -164,7 +164,7 @@ const ModalCalendar = (props) => {
           </div>
 
           <div className="form-group mb-2">
-            <label>Fecha y hora fin</label>
+            <label>Fecha, hora de inicio y finalización</label>
             <DatePicker
               className='form-control'
               locale="es"
@@ -192,7 +192,7 @@ const ModalCalendar = (props) => {
               value={inputs.title}
               onChange={onFirstInputChange}
             />
-            <small id="emailHelp" className="form-text text-muted">Una descripción corta</small>
+            <small id="emailHelp" className="form-text text-muted">Descripción</small>
           </div>
 
           <button
