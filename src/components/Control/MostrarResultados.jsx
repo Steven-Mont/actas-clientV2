@@ -58,13 +58,13 @@ export const MostrarResultados = () => {
 
     Swal.fire({
       title: 'Estas Seguro?',
-      text: 'No seras capaz de revertir esto!',
-      icon: 'warning',
+      text: '¡No seras capaz de revertir esto!',
+      icon: 'Advertencia',
       cancelButtonText: 'Cancelar',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
       cancelButtonColor: '#d33',
-      confirmButtonText: 'Yes, Eliminar!',
+      confirmButtonText: '¡Eliminar!',
     }).then((result) => {
       if (result.isConfirmed) {
         const infoNeeded = {
@@ -80,19 +80,19 @@ export const MostrarResultados = () => {
 
   const handleEliminarFolder = (info) => {
     Swal.fire({
-      title: 'Estas Seguro?',
-      text: 'No seras capaz de revertir esto!',
-      icon: 'warning',
+      title: '¿Estas Seguro?',
+      text: '¡No seras capaz de revertir esto!',
+      icon: 'Advertencia',
       cancelButtonText: 'Cancelar',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
       cancelButtonColor: '#d33',
-      confirmButtonText: 'Yes, Eliminar!',
+      confirmButtonText: '¡Eliminar!',
     }).then((result) => {
       if (result.isConfirmed) {
         eliminarFolderfn(info);
 
-        Swal.fire('Eliminado!', 'Usuario Eliminado.', 'success');
+        Swal.fire('¡Eliminado!', 'Usuario Eliminado', 'success');
       }
     });
   };
