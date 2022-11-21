@@ -50,7 +50,7 @@ export const Formulario = () => {
           <Form.Control
             type="text"
             name="nombre"
-            placeholder="Ingrese nombre"
+            placeholder="Ingrese el nombre del usuario"
             onChange={savingValues}
           />
         </Form.Group>
