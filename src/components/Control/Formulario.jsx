@@ -29,7 +29,7 @@ export const Formulario = () => {
 
   return (
     <Form onSubmit={filtrar} style={{ maxWidth: '900px', margin: '0 auto' }}>
-      <h2 className="text-center">Control de Actas</h2>
+      <h2 className="text-center">Control de actas</h2>
 
       <div className="d-flex">
         <Form.Group className="" controlId="formBasicPassword">
